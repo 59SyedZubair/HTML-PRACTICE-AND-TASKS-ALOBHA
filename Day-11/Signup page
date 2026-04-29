@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Signup Page</title>
+</head>
+
+<body>
+
+    <h2>Signup Form</h2>
+
+    <form>
+
+        <!-- Name -->
+        <label>Full Name:</label><br>
+        <input type="text" name="fullname" placeholder="Enter your name" required><br><br>
+
+        <!-- Email -->
+        <label>Email:</label><br>
+        <input type="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <!-- Password -->
+        <label>Password:</label><br>
+        <input type="password" name="password" placeholder="Enter password" required><br><br>
+
+        <!-- Confirm Password -->
+        <label>Confirm Password:</label><br>
+        <input type="password" name="confirm" placeholder="Confirm password" required><br><br>
+
+        <!-- Gender -->
+        <label>Gender:</label><br>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <input type="radio" name="gender"> Other<br><br>
+
+        <!-- Date of Birth -->
+        <label>Date of Birth:</label><br>
+        <input type="date" name="dob"><br><br>
+
+        <!-- Phone -->
+        <label>Phone Number:</label><br>
+        <input type="tel" name="phone" placeholder="Enter phone number"><br><br>
+
+        <!-- Address -->
+        <label>Address:</label><br>
+        <textarea name="address" placeholder="Enter your address"></textarea><br><br>
+
+        <!-- Country -->
+        <label>Country:</label><br>
+        <select name="country">
+            <option>India</option>
+            <option>USA</option>
+            <option>UK</option>
+            <option>Other</option>
+        </select><br><br>
+
+        <!-- Hobbies -->
+        <label>Hobbies:</label><br>
+        <input type="checkbox"> Reading
+        <input type="checkbox"> Sports
+        <input type="checkbox"> Music<br><br>
+
+        <!-- Terms -->
+        <input type="checkbox" required> I agree to Terms & Conditions<br><br>
+
+        <!-- Submit -->
+        <input type="submit" value="Signup">
+
+        <!-- Reset -->
+        <input type="reset" value="Clear">
+
+    </form>
+
+</body>
+</html>
