@@ -1,1 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple CSS Practice</title>
+
+    <style>
+
+        /* Element Selector */
+        body {
+            background-color: lightgray;
+            font-family: Arial;
+        }
+
+        h1 {
+            color: blue;
+            text-align: center;
+        }
+
+        /* Class Selector */
+        .info {
+            color: green;
+        }
+
+        /* ID Selector */
+        #special {
+            color: red;
+        }
+
+        /* Attribute Selector */
+        input[type="text"] {
+            border: 2px solid blue;
+        }
+
+        /* Advanced Selector */
+        a[href^="https"] {
+            color: purple;
+        }
+
+        /* Specificity */
+        p {
+            color: black;
+        }
+
+        .text {
+            color: orange;
+        }
+
+        #para {
+            color: brown;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h1>CSS Practice</h1>
+
+    <p class="info">
+        This is class selector.
+    </p>
+
+    <p id="special">
+        This is ID selector.
+    </p>
+
+    <input type="text" placeholder="Enter Name">
+
+    <br><br>
+
+    <a href="https://google.com">
+        Google
+    </a>
+
+    <p id="para" class="text">
+        Specificity Example
+    </p>
+
+</body>
+</html>
 
