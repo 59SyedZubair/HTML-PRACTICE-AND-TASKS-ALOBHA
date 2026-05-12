@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Card</title>
+
+    <style>
+
+        *{
+            box-sizing: border-box;
+        }
+
+        .card{
+            width: 250px;
+
+            border: 2px solid black;
+
+            padding: 20px;
+
+            margin: 30px auto;
+
+            background-color: lightgray;
+        }
+
+        .box1{
+            margin-bottom: 40px;
+            background-color: lightblue;
+        }
+
+        .box2{
+            margin-top: 50px;
+            background-color: lightgreen;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+
+        <h2>Card</h2>
+
+        <p>Card layout.</p>
+
+    </div>
+
+    <div class="box1">
+        Box 1
+    </div>
+
+    <div class="box2">
+        Box 2
+    </div>
+
+</body>
+</html>
