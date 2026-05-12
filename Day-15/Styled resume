@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Resume</title>
+
+    <style>
+
+        body{
+            font-family: Arial;
+            background-color: #f2f2f2;
+        }
+
+        .resume{
+            width: 400px;
+
+            background-color: white;
+
+            padding: 20px;
+
+            margin: 30px auto;
+
+            border: 2px solid black;
+        }
+
+        h1{
+            color: darkblue;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="resume">
+
+        <h1>Zubair</h1>
+
+        <p>Email: zubair@gmail.com</p>
+
+        <p>Phone: 9876543210</p>
+
+        <h3>Education</h3>
+
+        <p>B.Tech</p>
+
+        <h3>Skills</h3>
+
+        <p>HTML, CSS, Python</p>
+
+    </div>
+
+</body>
+</html>
