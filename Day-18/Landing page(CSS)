@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Landing Page</title>
+
+    <style>
+
+        body{
+            margin: 0;
+            font-family: Arial;
+            background-color: #f2f2f2;
+            text-align: center;
+        }
+
+        .hero{
+            background-color: darkblue;
+            color: white;
+
+            padding: 100px 20px;
+        }
+
+        h1{
+            font-size: 40px;
+        }
+
+        p{
+            font-size: 20px;
+        }
+
+        button{
+            background-color: white;
+            color: darkblue;
+
+            padding: 10px 20px;
+
+            border: none;
+
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="hero">
+
+        <h1>Welcome to My Website</h1>
+
+        <p>Learn HTML and CSS easily.</p>
+
+        <button>Get Started</button>
+
+    </div>
+
+</body>
+</html>
